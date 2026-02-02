@@ -75,6 +75,7 @@ curl -X POST http://localhost:8080/api/auth/register -H "Content-Type: applicati
   "availableDays": ["Pazartesi", "Salı", "Perşembe"],
   "availableTime": "18:00"
 }'
+
 📚 Öğrendiklerim
 
 Spring Boot gerçekten hızlı - Production-ready uygulama yapmak çok daha kolay
@@ -82,6 +83,7 @@ JWT authentication nasıl çalışır
 H2 database ile hızlı prototipleme
 RESTful API tasarımı best practices
 Debug yapma sanatı - Loglara bakıp problemi bulmak
+
 🤓 Teknik Detaylar (İlgilenenler İçin)
 
 Java 17 - En son LTS versiyon
@@ -92,6 +94,7 @@ H2 Database - Geliştirme sırasında in-memory DB
 JJWT 0.12.3 - Token oluşturma ve doğrulama
 Lombok - Daha az boilerplate kodu
 Maven - Bağımlılık yönetimi
+
 🎉 En Güzel An
 
 Uygulama ilk çalıştığında ve BUILD SUCCESS yazısını gördüğümde, sonra da ilk API çağrısından {"token": "...", "message": "Registration successful"} response'unu aldığımda. O anki mutluluğu anlatamam.
@@ -103,6 +106,7 @@ Docker - Container'a alıp her yerde çalıştırabileceğim
 PostgreSQL - Gerçek database'e geçeceğim
 Unit Test - Test yazmayı öğreneceğim
 CI/CD - Otomatik deploy yapacağım
+
 💭 Son Söz
 
 Bu projede en çok şunu öğrendim: Kod yazmak sadece syntax bilmek değil, problem çözmek. Her hata yeni bir şey öğrenme fırsatı. Şimdi frontend kısmına başlıyorum, orada da neler yaşayacağım merak ediyorum.
